@@ -1,7 +1,8 @@
 import APIEntityModel from "../api/v1/APIEntityModel";
+import IEntityModelOptions from "../../interface/IEntityModelOptions";
 declare class EntityModel {
     private _model;
-    constructor(props: any);
+    constructor(props: IEntityModelOptions);
     get model(): APIEntityModel;
     set model(value: APIEntityModel);
     action(action: string, params?: any): Promise<any>;

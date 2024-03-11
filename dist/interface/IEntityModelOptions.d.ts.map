@@ -1,1 +1,1 @@
-{"version":3,"file":"IEntityModelOptions.d.ts","sourceRoot":"","sources":["../../src/interface/IEntityModelOptions.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,4BAA4B,CAAC;AAEnD,MAAM,CAAC,OAAO,WAAW,mBAAmB;IACxC,IAAI,EAAE,MAAM,CAAC;IACb,MAAM,EAAE,SAAS,GAAC,GAAG,CAAC;CACzB"}
+{"version":3,"file":"IEntityModelOptions.d.ts","sourceRoot":"","sources":["../../src/interface/IEntityModelOptions.ts"],"names":[],"mappings":"AAAA,OAAO,cAAc,MAAM,gCAAgC,CAAC;AAE5D,MAAM,CAAC,OAAO,WAAW,mBAAmB;IACxC,KAAK,CAAC,EAAE,cAAc,CAAC;CAC1B"}

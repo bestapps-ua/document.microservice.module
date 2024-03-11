@@ -1,6 +1,6 @@
 import APIModel from "./APIModel";
 import ApiEntity from "../../../entity/api/v1/ApiEntity";
-import IEntityModelOptions from "../../../interface/IEntityModelOptions";
+import IAPIEntityModelOptions from "../../../interface/IAPIEntityModelOptions";
 import ApiList from "../../../entity/api/v1/ApiList";
 
 class APIEntityModel {
@@ -9,7 +9,7 @@ class APIEntityModel {
     private _path: any;
     private _entity: ApiEntity;
 
-    constructor(props: IEntityModelOptions) {
+    constructor(props: IAPIEntityModelOptions) {
         this._path = props.path;
         this._entity = props.entity;
     }

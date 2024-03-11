@@ -6,8 +6,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const EntityModel_1 = __importDefault(require("./EntityModel"));
 const APIDocumentModel_1 = __importDefault(require("../api/v1/APIDocumentModel"));
 class DocumentModel extends EntityModel_1.default {
-    constructor(props) {
-        props.model = APIDocumentModel_1.default;
+    constructor(props = {}) {
+        var _a;
+        props.model = (_a = props.model) !== null && _a !== void 0 ? _a : APIDocumentModel_1.default;
         super(props);
     }
 }

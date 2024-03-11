@@ -1,6 +1,7 @@
 import EntityModel from "./EntityModel";
+import IEntityModelOptions from "../../interface/IEntityModelOptions";
 declare class DocumentNumberModel extends EntityModel {
-    constructor(props: any);
+    constructor(props?: IEntityModelOptions);
 }
 export default DocumentNumberModel;
 //# sourceMappingURL=DocumentNumberModel.d.ts.map

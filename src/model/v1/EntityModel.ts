@@ -1,9 +1,10 @@
 import APIEntityModel from "../api/v1/APIEntityModel";
+import IEntityModelOptions from "../../interface/IEntityModelOptions";
 
 class EntityModel {
     private _model: APIEntityModel;
 
-    constructor(props: any) {
+    constructor(props: IEntityModelOptions) {
         this._model = props.model;
     }
 

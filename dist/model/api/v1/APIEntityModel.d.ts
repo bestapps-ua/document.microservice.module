@@ -1,9 +1,9 @@
 import ApiEntity from "../../../entity/api/v1/ApiEntity";
-import IEntityModelOptions from "../../../interface/IEntityModelOptions";
+import IAPIEntityModelOptions from "../../../interface/IAPIEntityModelOptions";
 declare class APIEntityModel {
     private _path;
     private _entity;
-    constructor(props: IEntityModelOptions);
+    constructor(props: IAPIEntityModelOptions);
     get path(): any;
     set path(value: any);
     get entity(): ApiEntity;
